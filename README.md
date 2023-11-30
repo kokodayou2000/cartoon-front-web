@@ -1,46 +1,23 @@
 # cartoon-front-web
+ 
+协作漫画web端，希望为画师提供一个能在线协作画漫画的场所
 
-This template should help get you started developing with Vue 3 in Vite.
+## 页面设计
 
-## Recommended IDE Setup
+See [figma](https://www.figma.com/file/cpGzP9uq8ePrI80LVSRwnV/%E5%8D%8F%E4%BD%9C%E6%BC%AB%E7%94%BB?type=design&node-id=0-1&mode=design&t=6Jx6QYlqO4MJyezU-0).
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+## 技术选型
 
-## Type Support for `.vue` Imports in TS
+- typescript
+- vue3
+- [husky](https://github.com/typicode/husky)
+- [pinia](https://pinia.vuejs.org/zh/)
+- [route](https://v3.router.vuejs.org/zh/)
+- [naiveUI](https://www.naiveui.com/)
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin) to make the TypeScript language service aware of `.vue` types.
 
-If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has also implemented a [Take Over Mode](https://github.com/johnsoncodehk/volar/discussions/471#discussioncomment-1361669) that is more performant. You can enable it by the following steps:
+## 项目参考
 
-1. Disable the built-in TypeScript Extension
-    1) Run `Extensions: Show Built-in Extensions` from VSCode's command palette
-    2) Find `TypeScript and JavaScript Language Features`, right click and select `Disable (Workspace)`
-2. Reload the VSCode window by running `Developer: Reload Window` from the command palette.
+[笔迹](https://github.com/bgstaal/multipleWindow3dScene)
 
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Type-Check, Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
+[画板](https://github.com/szimek/signature_pad)
